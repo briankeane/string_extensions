@@ -293,6 +293,9 @@
 			<Option target="string_extensions"/>
 			<Option target="se"/>
 		</Unit>
+		<Unit filename="/Users/briankeane/code/learn/string_extensions/tests/gtest-linked-list-function-tests.cpp">
+			<Option target="string_extensions"/>
+		</Unit>
 		<Unit filename="/Users/briankeane/code/learn/string_extensions/tests/gtest-string-function-tests.cpp">
 			<Option target="string_extensions"/>
 		</Unit>

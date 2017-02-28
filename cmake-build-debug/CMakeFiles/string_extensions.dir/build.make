@@ -57,9 +57,33 @@ include CMakeFiles/string_extensions.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/string_extensions.dir/flags.make
 
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o: CMakeFiles/string_extensions.dir/flags.make
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o: ../tests/gtest-linked-list-function-tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o -c /Users/briankeane/code/learn/string_extensions/tests/gtest-linked-list-function-tests.cpp
+
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/briankeane/code/learn/string_extensions/tests/gtest-linked-list-function-tests.cpp > CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.i
+
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/briankeane/code/learn/string_extensions/tests/gtest-linked-list-function-tests.cpp -o CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.s
+
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.requires:
+
+.PHONY : CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.requires
+
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.provides: CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.requires
+	$(MAKE) -f CMakeFiles/string_extensions.dir/build.make CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.provides.build
+.PHONY : CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.provides
+
+CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.provides.build: CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o
+
+
 CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o: CMakeFiles/string_extensions.dir/flags.make
 CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o: ../tests/gtest-string-function-tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o -c /Users/briankeane/code/learn/string_extensions/tests/gtest-string-function-tests.cpp
 
 CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.i: cmake_force
@@ -83,7 +107,7 @@ CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o.provide
 
 CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o: CMakeFiles/string_extensions.dir/flags.make
 CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o: ../str_ext/src/StringFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o -c /Users/briankeane/code/learn/string_extensions/str_ext/src/StringFunctions.cpp
 
 CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o.provides.buil
 
 CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o: CMakeFiles/string_extensions.dir/flags.make
 CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o: ../str_ext/src/LinkedListFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o -c /Users/briankeane/code/learn/string_extensions/str_ext/src/LinkedListFunctions.cpp
 
 CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.i: cmake_force
@@ -131,6 +155,7 @@ CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o.provides.
 
 # Object files for target string_extensions
 string_extensions_OBJECTS = \
+"CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o" \
 "CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o" \
 "CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o" \
 "CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o"
@@ -138,6 +163,7 @@ string_extensions_OBJECTS = \
 # External object files for target string_extensions
 string_extensions_EXTERNAL_OBJECTS =
 
+string_extensions: CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o
 string_extensions: CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o
 string_extensions: CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o
 string_extensions: CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o
@@ -147,7 +173,7 @@ string_extensions: deps/googletest/libgtest.a
 string_extensions: deps/googletest/libgtest_main.a
 string_extensions: deps/googletest/libgtest.a
 string_extensions: CMakeFiles/string_extensions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable string_extensions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/briankeane/code/learn/string_extensions/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable string_extensions"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/string_extensions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -155,6 +181,7 @@ CMakeFiles/string_extensions.dir/build: string_extensions
 
 .PHONY : CMakeFiles/string_extensions.dir/build
 
+CMakeFiles/string_extensions.dir/requires: CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o.requires
 CMakeFiles/string_extensions.dir/requires: CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o.requires
 CMakeFiles/string_extensions.dir/requires: CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o.requires
 CMakeFiles/string_extensions.dir/requires: CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o.requires

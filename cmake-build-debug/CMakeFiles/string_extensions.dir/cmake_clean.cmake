@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/string_extensions.dir/tests/gtest-linked-list-function-tests.cpp.o"
   "CMakeFiles/string_extensions.dir/tests/gtest-string-function-tests.cpp.o"
   "CMakeFiles/string_extensions.dir/str_ext/src/StringFunctions.cpp.o"
   "CMakeFiles/string_extensions.dir/str_ext/src/LinkedListFunctions.cpp.o"

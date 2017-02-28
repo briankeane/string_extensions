@@ -294,6 +294,12 @@ cstdio
 StringFunctions.h
 /Users/briankeane/code/learn/string_extensions/str_ext/src/StringFunctions.h
 
+/Users/briankeane/code/learn/string_extensions/tests/gtest-linked-list-function-tests.cpp
+gtest/gtest.h
+-
+LinkedListFunctions.h
+/Users/briankeane/code/learn/string_extensions/tests/LinkedListFunctions.h
+
 /Users/briankeane/code/learn/string_extensions/tests/gtest-string-function-tests.cpp
 gtest/gtest.h
 -
