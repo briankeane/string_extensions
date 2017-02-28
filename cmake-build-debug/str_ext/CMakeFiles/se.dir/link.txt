@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libse.a  CMakeFiles/se.dir/src/LinkedListFunctions.cpp.o CMakeFiles/se.dir/src/StringFunctions.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libse.a

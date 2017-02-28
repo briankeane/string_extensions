@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/data_structures_practice.dir/tests/gtest-string-function-tests.cpp.o  -o data_structures_practice  ds/libds.a deps/googletest/libgtest.a deps/googletest/libgtest_main.a deps/googletest/libgtest.a 

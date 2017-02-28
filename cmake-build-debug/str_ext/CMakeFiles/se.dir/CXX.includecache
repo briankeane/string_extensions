@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../str_ext/include/LinkedListFunctions.h
+
+../str_ext/include/StringFunctions.h
+
+/Users/briankeane/code/learn/string_extensions/str_ext/src/LinkedListFunctions.cpp
+cstdio
+-
+LinkedListFunctions.h
+/Users/briankeane/code/learn/string_extensions/str_ext/src/LinkedListFunctions.h
+
+/Users/briankeane/code/learn/string_extensions/str_ext/src/StringFunctions.cpp
+cstdio
+-
+StringFunctions.h
+/Users/briankeane/code/learn/string_extensions/str_ext/src/StringFunctions.h
+
